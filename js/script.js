@@ -1,6 +1,6 @@
 //document.querySelector('.btn').addEventListener('onclick',playgame());
 
-let gsound= new Audio('..music/music.mp3');
+let gsound= new Audio('music/music.mp3');
 
 //Show Music Control
 function soundplay(){
@@ -16,9 +16,9 @@ function soundplay(){
 }
 
 function playgame(){
-let change_dir_sound = new Audio ('..music/move.mp3');
-let fsound= new Audio('..music/food.mp3');
-let goversound= new Audio('..music/gameover.mp3');
+let change_dir_sound = new Audio ('music/move.mp3');
+let fsound= new Audio('music/food.mp3');
+let goversound= new Audio('music/gameover.mp3');
 let vel = {x:1, y:0};
 let score=0;
 let food={x:5,y:9};
